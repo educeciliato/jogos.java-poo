@@ -32,7 +32,7 @@ public class JogoDescoberta {
 
     private void jogar() {
         while (true) {
-            System.out.println("\nPalavra embaralhada: " + palavraEmbaralhada);
+            System.out.println("Palavra embaralhada: " + palavraEmbaralhada);
             System.out.print("Digite sua tentativa (ou 'dica', 'desistir'): ");
             String tentativa = scanner.nextLine().toUpperCase();
 
