@@ -63,7 +63,7 @@ public class CacaPalavras {
     }
 
     private void mostrarTabuleiro() {
-        System.out.println("\nTabuleiro:");
+        System.out.println("Tabuleiro:");
         for (int i = 0; i < tamanho; i++) {
             for (int j = 0; j < tamanho; j++) {
                 System.out.print(tabuleiro[i][j] + " ");
